@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	height: 100vh;
+	display: flex;  
+	justify-content: center; /*centrado el contenido*/
+	align-items: center;
+	background-image: url("https://i.pinimg.com/originals/90/66/c4/9066c406ef1354b4e365681d25f938aa.jpg");
+    background-size: 300vw 300vh;
+	background-repeat: no-repeat; /*para que no se repita el fondo*/
+}
+/*.title{
+	
+	font-size: 50px;
+	margin-bottom: 520px;
+    margin-left: 500px;
+    top: 200px;
+ }*/
+
+.capa{
+	width: 100%;
+	height: 300vh;
+	position: absolute;
+	background: #38273b;
+	opacity: 0.2;
+}
+
+/*ANN WITH AN E*/
+.parrafo1{
+	z-index: 1; /*poner la imagen al frente*/
+	width: 540px; /*ancho contenedor*/
+    height: 440px;/*alto contenedor*/
+    padding: 20px 20px; 
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: relative;
+    top:270px; left:590px;
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+
+}
+.parrafo1 img{
+	width: 300px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 15px;
+
+}
+/*Y SI QUEDAMOS COMO AMIGOS?*/
+.parrafo2{
+	z-index: 1;
+	width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: relative;
+    top:270px; right:600px; 
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+}
+.parrafo2 img{
+	width: 235px;
+	border-radius: 5px;
+	float: right;
+/*	margin-right: 20px;*/
+	margin-left: 20px;
+/*	margin-top: 20px;*/
+}
+
+/*METEORO*/
+.parrafo3{
+	z-index: 1;
+	width: 500px;
+    height: 350px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: fixed;
+    top:40px; 
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+}
+.parrafo3 img{
+	width: 145px;	
+	border-radius: 5px;
+	text-align: center;
+	float: center;
+    margin: 35%;
+    margin-top: 10px;
+    margin-bottom: -275px;
+ /*	margin-right: 20px;*/
+/*	margin-top: 20px;*/
+}
+
+
+/*Hacia las estrellas*/
+.parrafo4{
+	z-index: 1;
+	width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: absolute;
+    top:990px; right: 820px; 
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+}
+.parrafo4 img{
+	width: 235px;
+	border-radius: 5px;
+	position: static;
+	float: center;
+/*	margin-right: 20px;*/
+	margin-left: 130px;
+/*	margin-top: 20px;*/
+}
+
+/*Hacia las estrellas*/
+.parrafo4{
+	z-index: 1;
+	width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: absolute;
+    top:990px; right: 820px; 
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+}
+.parrafo4 img{
+	width: 235px;
+	border-radius: 5px;
+	position:static;
+	float: center;
+/*	margin-right: 20px;*/
+	margin-left: 130px;
+/*	margin-top: 20px;*/
+}
+.parrafo5{
+	z-index: 1;
+	width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: absolute;
+    top:990px; right:170px; 
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+}
+.parrafo5 img{
+	width: 200px;
+	border-radius: 5px;
+	float: right;
+   	margin-top:155px;
+/*	margin-top: 20px;*/
+}

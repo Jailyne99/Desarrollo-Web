@@ -1,0 +1,319 @@
+HTML-------------------------------------------------------
+
+<div id="menu">
+	<ul>
+		<li><a href="#">#1</a></li>
+		<li><a href="#">#2</a></li>
+		<li><a href="#">#3</a></li>
+		<li><a href="#">#4</a></li>
+		<li><a href="#">#5</a></li>
+	</ul>
+</div>
+
+
+--------------------------------------------------------------
+
+
+
+    text-align: justify;
+
+}
+.parrafo img{
+	width: 300px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 15px;
+
+}
+-----------------------------
+index
+
+
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jailyne Matías</title>
+    <link rel="shortcut icon" type="images\x-icon" href="img\favicon.ico">
+    <link rel="stylesheet" href="css\estilo.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximun-scale=1.0, minimun-scale=1.0">
+
+
+</head>
+
+<body >
+
+<h1 class="title"> LIBROS </h1>
+
+
+<div class="capa"></div>
+	
+<div class="parrafo1">
+      <img src="img/libro1.jpg"> 
+      <p> <h2> <U></U>tilice position: absolute y  float: left float: right;</h2><p> er will be distracted by the readable content </p> of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</div> 
+
+
+<div class="parrafo2">
+      <img src="img/libro2.jpg"> 
+      <p> <h2> <U></U>tilice position: absolute y  float: left float: right;</h2><p> er will be distracted by the readable content </p> of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</div> 
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+--------------------------------------
+css
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("https://i.pinimg.com/originals/90/66/c4/9066c406ef1354b4e365681d25f938aa.jpg");
+    background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+}
+.title{
+	
+	font-size: 50px;
+	margin-bottom: 520px;
+    margin-left: 500px;
+    top: 200px;
+ }
+
+.capa{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background: #38273b;
+	opacity: 0.7;
+}
+
+
+.parrafo1{
+	z-index: 1;
+	width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    
+
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+
+}
+.parrafo1 img{
+	width: 300px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 15px;
+
+}
+
+
+.parrafo2{
+	z-index: 1;
+	width: 540px;
+    height: 440px
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    
+
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+
+}
+.parrafo2 img{
+	width: 300px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 150px;
+
+}
+-----------------------------------------------------
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	height: 100vh;
+	display: flex;  
+	justify-content: center; /*centrado el contenido*/
+	align-items: center;
+	background-image: url("https://i.pinimg.com/originals/90/66/c4/9066c406ef1354b4e365681d25f938aa.jpg");
+    background-size: 300vw 300vh;
+	background-repeat: no-repeat; /*para que no se repita el fondo*/
+}
+/*.title{
+	
+	font-size: 50px;
+	margin-bottom: 520px;
+    margin-left: 500px;
+    top: 200px;
+ }*/
+
+.capa{
+	width: 100%;
+	height: 300vh;
+	position: absolute;
+	background: #38273b;
+	opacity: 0.7;
+}
+
+/*ANN WITH AN E*/
+.parrafo1{
+	z-index: 1; /*poner la imagen al frente*/
+	width: 540px; /*ancho contenedor*/
+    height: 440px;/*alto contenedor*/
+    padding: 20px 20px; 
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: relative;
+    top:270px; left:590px;
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+
+}
+.parrafo1 img{
+	width: 300px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 15px;
+
+}
+/*Y SI QUEDAMOS COMO AMIGOS?*/
+.parrafo2{
+	z-index: 1;
+	width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: relative;
+    top:270px; right:600px; 
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+}
+.parrafo2 img{
+	width: 235px;
+	border-radius: 5px;
+	float: right;
+/*	margin-right: 20px;*/
+	margin-left: 20px;
+/*	margin-top: 20px;*/
+}
+
+/*METEORO*/
+.parrafo3{
+	z-index: 1;
+	width: 500px;
+    height: 350px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: fixed;
+    top:40px; 
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+}
+.parrafo3 img{
+	width: 140px;	
+	border-radius: 5px;
+	text-align: center;
+	float: center;
+    margin: 35%;
+    margin-top: 10px;
+    margin-bottom: -275px;
+ /*	margin-right: 20px;*/
+/*	margin-top: 20px;*/
+}
+/*Hacia las estrellas*/
+/*Y SI QUEDAMOS COMO AMIGOS?*/
+.parrafo4{
+	z-index: 1;
+	width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: absolute;
+    top:990px; right: 820px; 
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+}
+.parrafo4 img{
+	width: 235px;
+	border-radius: 5px;
+	position:;
+	float: right;
+/*	margin-right: 20px;*/
+	margin-left: 20px;
+/*	margin-top: 20px;*/
+}
+
+---------------------
+
+<div class="parrafo4">
+      <img src="img/libro4.jpg"> 
+      <p> <h2> Utilicé position: relative y float: right </h2><p> er will be distracted by the readable content </p> of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop kcv jjvz x vxkzxvñv publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</div>
+
+-------------------
+/*METEORO*/
+.parrafo3{
+	z-index: 1;
+	width: 500px;
+    height: 350px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45); /* sombra*/ 
+    position: fixed;
+    top:40px; 
+    border-radius: 5px; /*redondear las esquinas*/
+    text-align: justify;
+}
+.parrafo3 img{
+	width: 170px;
+	border-radius: 5px;
+	float: center;
+/*	margin-right: 20px;*/
+	margin-left: 145px;
+/*	margin-top: 20px;*/
+}
