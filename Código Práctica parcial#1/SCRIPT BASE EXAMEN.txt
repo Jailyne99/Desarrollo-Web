@@ -1,0 +1,99 @@
+---------------------------HTML BASE -------------------------
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estructura Tres</title>
+    <link rel="stylesheet" href="css\style.css">
+    
+</head>
+<body>
+    <div id="contenedor">
+       <div id="header">Header</div>
+       <div id="nav">Nav</div>
+       <div id="contenido">
+            <div id="fondo">Fondo
+                 <div class="section">Section</div>
+                 <article class="articulo">Article</article>
+            </div>
+            <div id="aside">Aside</div>
+       </div>
+       <div id="footer">Footer</div>
+     </div>
+</body>
+</html>
+
+
+------------------------- CSS BASE ---------------------------------
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#contenedor{
+	width: 1200px;
+	height: 1000px;
+	background: black; /*#FFD5AC*/
+	margin: 0.5em auto;
+	padding: 0.5em; 
+}
+#header{
+	height: 15%;
+	background: #02FF94;
+	border-radius: 1em;
+	margin: 1em;
+}
+#nav{
+	height: 10%;
+	background: #CCA7FE;
+	border-radius: 1em;
+	margin: 1em;
+}
+#contenido{
+	height: 53%;
+	margin: 1em;
+
+}
+#footer{
+    height: 15%;
+    background: #C1FFAC;  
+    border-radius: 1em;
+    margin: 1em;
+}
+#fondo{
+	padding-bottom: 0.5em;
+	height: 95%;
+	width: 60%;
+	background: /*#FFAEAE*/;
+	border-radius: 1em;
+	float: left;
+	margin: 0.5em;
+}
+#aside{
+	height: 95%;
+	width: 37%;
+	background:  #F178BB;
+	padding-bottom: 0.5em;
+	border-radius: 1em;
+	float: right;
+	margin: 0.5em;
+}
+.articulo{
+	width: 94.7%;
+	height: 45%;
+	background: #FFFF89;
+	margin: 1em;
+	border-radius: 1em;
+	position: relative;
+    bottom: 1em;	
+}
+.section{
+	width: 94.7%;
+	height: 45.8%;
+	background: #FFFF89;
+	position: relative;
+    bottom: 1.5em;	
+	margin: 1em;	
+	border-radius: 1em;
