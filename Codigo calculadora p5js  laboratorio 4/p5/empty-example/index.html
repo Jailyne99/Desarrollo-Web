@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Calculadora</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="sketch.js" ></script>
+    <script src="../p5.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	
+   <div id="calculadora">
+  <div class="area">
+
+    <div class="screen">
+    
+    </div>
+    <div id="operaciones">
+ 
+        <button id="entre" class="btn" type="button" onclick="leerBtn('÷')" >÷</button>
+        <button id="por"   class="btn" type="button" onclick="leerBtn('*')" >*</button>
+        <button id="resta" class="btn" type="button" onclick="leerBtn('-')" >-</button>
+        <button id="suma"  class="btn" type="button" onclick="leerBtn('+')" >+</button>        
+        <button id="c"     class="esp" type="button" onclick="leerBtn('c')" >C</button>
+       
+    </div>
+    
+    
+    <div id="teclado">
+      <button href="7" class="val" class="btn" type="button" onclick="leerBtn(7)">7</button>
+      <button href="8" class="val" class="btn" type="button" onclick="leerBtn(8)">8</button>
+      <button href="9" class="val" class="btn" type="button" onclick="leerBtn(9)">9</button><br>
+      <button href="4" class="val" class="btn" type="button" onclick="leerBtn(4)">4</button>
+      <button href="5" class="val" class="btn" type="button" onclick="leerBtn(5)">5</button>
+      <button href="6" class="val" class="btn" type="button" onclick="leerBtn(6)">6</button><br>
+      <button href="1" class="val" class="btn" type="button" onclick="leerBtn(1)">1</button>
+      <button href="2" class="val" class="btn" type="button" onclick="leerBtn(2)">2</button>
+      <button href="3" class="val" class="btn" type="button" onclick="leerBtn(3)">3</button><br>
+      <button href="0" class="val" class="btn" type="button" onclick="leerBtn(0)">0</button>
+      <button href="." class="val" class="raiz" type="button" onclick="leerBtn('√')">√</button>
+      <button id="igual" class="equal" type="button" onclick="leerBtn('=')">=</button><br>
+      
+    </div>
+    </div>
+
+  </div>
+  <script src="calc.js"></script>
+</body>
+
+</html>
