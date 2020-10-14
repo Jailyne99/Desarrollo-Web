@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+}
+
+#canva{
+	height: 100px;
+	width: 100px;
+}
+
+
+.content{
+	margin: 0px auto;
+	background-color: black;
+}
+
+
+header{
+	width: 100%; 
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+}
+h1{
+	color: white;
+	font-family: 'Acme', sans-serif;
+	font-size: 30px; 
+}
+h2{
+	color: #3498db;
+	font-family: 'Acme', sans-serif;
+}
+.container{
+	text-align: center;
+	margin-top: 15px;
+    height: 80px;
+    width: 100%;
+}
+.btn{
+	width: 20%;
+	border:1px solid #3498db;
+	background: none;
+	/*padding: 10px 20px;*/
+	font-size: 20px;
+	font-family: 'Acme', sans-serif;
+	cursor: pointer;
+	/*margin: 10px;*/
+	transition: 0.8s;
+	overflow: hidden;
+	color: white;
+	
+}
+a{
+	padding: 5px 10px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+	width: 90%;
+}
+a:hover{
+	color: #255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+  @media(max-width: 600px){
+  	.btn{
+  		width: 60%;
+  	}
+  }
