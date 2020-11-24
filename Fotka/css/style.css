@@ -1,0 +1,15 @@
+:root{
+    --dark: #161616;
+    --dark-x: #1e2126;
+    --light:#ffffff;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+.img-fluid{
+    width: 10px;
+    height: 10000px;;
+}
+.bg-dark { background-color: var(--dark) !important;}
